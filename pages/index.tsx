@@ -22,7 +22,10 @@ const Home: NextPage = () => {
     setDataArray(data)
   }, [data])
 
-  if (error) return <div>failed to load</div>
+  if (error) {
+    console.error(error)
+    return <div>failed to load</div>
+  }
 
   let currX = 0
   let lineBreak = false
