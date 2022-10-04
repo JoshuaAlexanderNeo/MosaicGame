@@ -1,0 +1,12 @@
+.tile {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+}
+
+@media only screen and (min-width: 628px) {
+  .tile {
+    height: 50px;
+    width: 50px;
+  }
+}

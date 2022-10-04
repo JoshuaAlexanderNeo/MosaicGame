@@ -1,0 +1,13 @@
+.paletteTile {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+.paletteWrapper {
+  margin-top: 3rem !important;
+}
+
+.selected {
+  border: inset;
+}
